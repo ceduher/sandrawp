@@ -5,7 +5,7 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 get_header();
 ?>
 <div id="author">
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/autor-quiensoy.png">
+    <!--img src="<?php /*echo get_template_directory_uri();*/ ?>/assets/img/autor-quiensoy.png"-->
 </div> 
 <div class="content">
     <div class="banner-title">

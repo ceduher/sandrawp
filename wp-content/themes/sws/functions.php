@@ -35,9 +35,9 @@ function my_theme_cssjs() {
     wp_enqueue_style( 'fontawesome-style', get_template_directory_uri() . '/assets/css/font-awesome.min.css"' );
     wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/assets/css/bootstrap.min.css"' );   
     if ( isset( $_GET['page'] ) && $_GET['page'] == 'contactame' ) {
-        wp_enqueue_style( 'material-style', get_template_directory_uri() . '/assets/css/mdb.css"' ); /* mdb.min.css */  
+        wp_enqueue_style( 'material-style', get_template_directory_uri() . '/assets/css/mdb.min.css"' ); /* mdb.css */  
     }
-    wp_enqueue_style( 'my-theme-style', get_template_directory_uri() . '/assets/css/estilos.css' );/* styles.min.css */
+    wp_enqueue_style( 'my-theme-style', get_template_directory_uri() . '/assets/css/styles.min.css"' );/* estilos.css */
     wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array( 'jquery' ), '', true );    
     wp_enqueue_script( 'my-theme-js', get_template_directory_uri() . '/assets/js/scripts.min.js', array( 'jquery' ), '', true );
 }

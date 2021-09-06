@@ -9,7 +9,7 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 get_header();?>
 
 <div id="author">
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sandra.webp" loading="lazy">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sandra-complete.webp" loading="lazy">
 </div> 
 <div class="content">
 	<div class="banner-title">

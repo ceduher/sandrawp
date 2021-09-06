@@ -1,6 +1,6 @@
 body,
 html {
-    height: 100%;
+    height: auto;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -239,8 +239,18 @@ textarea {
 .menu-item-inicio {
     display: none;
 }
+#header{
+    z-index: 10;
+}
 #header .navbar-nav > li.current_page_item > a,
 #header .navbar-nav > li > a:hover {
+    color: #000;
+    background-color: #fded00;
+    font-family: "PT Sans Narrow";
+}
+#header .navbar-nav > li > a.active, 
+#header .navbar-nav > li > a.home-main-link, 
+#header .navbar-nav > li > a.home-main-link > i{
     color: #000;
     background-color: #fded00;
     font-family: "PT Sans Narrow";
@@ -276,7 +286,7 @@ textarea {
     src: url(../fonts/PTSans-Regular.ttf);
 }
 .home #author {
-    z-index: 0;
+    z-index: 100;
     height: 720px;
     width: 585px;
     position: absolute;
@@ -304,7 +314,7 @@ textarea {
 }
 #wrapper {
     width: 100%;
-    min-height: 720px;
+    min-height: 818px;
     height: 100%;
     position: relative;
 }
@@ -469,7 +479,8 @@ li.social {
     position: absolute;
     left: 18px;
     line-height: 20px;
-    bottom: 60px;
+    bottom: 40px;
+    z-index:600;
 }
 .name-autor-photo {
     color: #fff !important;
@@ -855,6 +866,10 @@ body.quien-soy-detalles {
     color: #fff !important;
     font-family: "PT Sans";
     font-size: 18px;
+    height: auto !important;
+}
+.wrapper-qsd{
+    min-height: auto !important;
 }
 blockquote {
     font-family: "PT Sans";
@@ -905,6 +920,15 @@ blockquote cite:before {
 .quien-soy-detalles .main-content {
     color: #010e1e;
 }
+.quien-soy-detalles .sandra-familia {
+    margin-top: -20px !important;
+}
+.quien-soy-detalles .sandra-maratones_1 {
+    margin-top: 15px !important;
+}
+.quien-soy-detalles .sandra-maratones_4 {
+    margin-top: 34px !important;
+}
 .link-publicacion {
     position: relative;
     top: 165px;
@@ -925,6 +949,91 @@ blockquote cite:before {
     color: #fff;
     padding-left: 10px;
 }
+
+.home #author {
+    height: 674px;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: 88px;
+}
+
+@media only screen and (min-width: 768px) {
+    .block-author {
+        bottom: 10px;
+    }
+    .home #author {
+        height: 615px;
+        width: 50%;
+        top: 145px;
+    }
+    .home #author img {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        overflow: hidden;
+        bottom: 0;
+        right: unset;
+    }
+    .banner-title p {
+        font-size: 50px;
+    }
+    .banner-subtitle {
+        margin: 30px 0 0 0;
+    }
+    .quiensoy .content {
+        margin-left: 40px;
+    }
+    .quiensoy .banner-title {
+        line-height: 60px;
+        margin-top: 30px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 880px) {
+    .banner-title p {
+        font-size: 70px;
+    }
+    .block-author {
+        bottom: 10px;
+    }
+    .home #author {
+        height: 674px;
+        width: 60%;
+    }
+    .home #author img {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        overflow: hidden;
+        bottom: 0;
+        right: unset;
+    }
+    .quiensoy .content {
+        margin-left: 90px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .home #author {
+        height: 674px;
+        width: 60%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .home #author {
+        height: 674px;
+        width: 30%;
+        left: 10%;
+    } 
+}
+
 @media only screen and (max-width: 767px) {
     .mi-libro-click-aqui .entry-content {
         margin-top: 25px;
@@ -977,7 +1086,7 @@ blockquote cite:before {
     .home .content {
         margin: 0;
         position: absolute;
-        top: 660px;
+        top: 700px;
         padding-left: 0;
         text-align: center;
     }
@@ -1017,7 +1126,7 @@ blockquote cite:before {
         background-image: url(../img/home-small.webp);
     }
     .home #author {
-        height: 674px;
+        height: 673px;
         position: absolute;
         overflow: hidden;
         text-align: center;
@@ -1025,13 +1134,14 @@ blockquote cite:before {
         text-align: center;
         display: flex;
         justify-content: center;
+        top: 95px;
     }
     .home #author img {
         position: absolute;
         overflow: hidden;
         height: auto;
         bottom: 0;
-        width: 100%;
+        height: 100%;
         right: unset;
     }
     .home .banner-title p {
@@ -1068,7 +1178,7 @@ blockquote cite:before {
     }
     .quiensoy .content {
         margin: 0;
-        margin-top: 660px;
+        margin-top: 700px;
         width: 100%;
         padding-right: 20px;
         height: 400px;
@@ -1110,6 +1220,10 @@ blockquote cite:before {
     }
     .quiensoy .content-more {
         margin-bottom: 122px;
+    }
+    .margen-textos{
+        margin-left: 1.5em !important;
+        margin-right: 1.5em !important;
     }
     .quien-soy-detalles .entry-content {
         margin: 110px 0 0 0;
@@ -1242,6 +1356,15 @@ blockquote cite:before {
         padding-right: 20px;
         margin-bottom: -32px;
     }
+    .quien-soy-detalles .sandra-familia {
+        margin-top: 0px !important;
+    }
+    .quien-soy-detalles .sandra-maratones_1 {
+        margin-top: 15px !important;
+    }
+    .quien-soy-detalles .sandra-maratones_4 {
+        margin-top: 34px !important;
+    }
     .mi-libro #wrapper {
         background-image: url(../img/milibro-small.png);
         width: 100%;
@@ -1306,7 +1429,7 @@ blockquote cite:before {
         width: 200px;
     }
     #wrapper {
-        height: 674px;
+        height: 768px;
     }
     .wpcf7 .ajax-loader {
         margin: 0;
