@@ -81,8 +81,8 @@ $table_prefix = 'ss_';
  */
 define('FORCE_SSL_ADMIN', true);
 define( 'WP_DEBUG', false );
-define( 'WP_HOME', 'http://localhost/sandra' );//https://sandrasuareznutriciondeportiva.com/
-define( 'WP_SITEURL', 'http://localhost/sandra' );//https://sandrasuareznutriciondeportiva.com/
+define( 'WP_HOME', 'http://192.168.0.108/sandra' );//https://sandrasuareznutriciondeportiva.com/
+define( 'WP_SITEURL', 'http://192.168.0.108/sandra' );//https://sandrasuareznutriciondeportiva.com/
 
 define( 'WP_AUTO_UPDATE_CORE', false );
 /* That's all, stop editing! Happy publishing. */

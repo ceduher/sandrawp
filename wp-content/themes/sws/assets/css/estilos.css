@@ -239,8 +239,8 @@ textarea {
 .menu-item-inicio {
     display: none;
 }
-#header{
-    z-index: 10;
+#header {
+    z-index: 200;
 }
 #header .navbar-nav > li.current_page_item > a,
 #header .navbar-nav > li > a:hover {
@@ -248,9 +248,9 @@ textarea {
     background-color: #fded00;
     font-family: "PT Sans Narrow";
 }
-#header .navbar-nav > li > a.active, 
-#header .navbar-nav > li > a.home-main-link, 
-#header .navbar-nav > li > a.home-main-link > i{
+#header .navbar-nav > li > a.active,
+#header .navbar-nav > li > a.home-main-link,
+#header .navbar-nav > li > a.home-main-link > i {
     color: #000;
     background-color: #fded00;
     font-family: "PT Sans Narrow";
@@ -287,10 +287,10 @@ textarea {
 }
 .home #author {
     z-index: 100;
-    height: 720px;
-    width: 585px;
     position: absolute;
     bottom: 0;
+    display: flex;
+    justify-content: center;
 }
 .quiensoy #author {
     z-index: 0;
@@ -314,7 +314,7 @@ textarea {
 }
 #wrapper {
     width: 100%;
-    min-height: 818px;
+    min-height: 859px;
     height: 100%;
     position: relative;
 }
@@ -480,7 +480,7 @@ li.social {
     left: 18px;
     line-height: 20px;
     bottom: 40px;
-    z-index:600;
+    z-index: 600;
 }
 .name-autor-photo {
     color: #fff !important;
@@ -868,7 +868,7 @@ body.quien-soy-detalles {
     font-size: 18px;
     height: auto !important;
 }
-.wrapper-qsd{
+.wrapper-qsd {
     min-height: auto !important;
 }
 blockquote {
@@ -950,24 +950,12 @@ blockquote cite:before {
     padding-left: 10px;
 }
 
-.home #author {
-    height: 674px;
-    position: absolute;
-    overflow: hidden;
-    text-align: center;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    top: 88px;
-}
-
 @media only screen and (min-width: 768px) {
     .block-author {
         bottom: 10px;
     }
     .home #author {
-        height: 615px;
+        height: 714px;
         width: 50%;
         top: 145px;
     }
@@ -978,6 +966,9 @@ blockquote cite:before {
         overflow: hidden;
         bottom: 0;
         right: unset;
+    }
+    .banner-title {
+        line-height: 30px;
     }
     .banner-title p {
         font-size: 50px;
@@ -993,17 +984,26 @@ blockquote cite:before {
         margin-top: 30px;
     }
 }
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 880px) {
+@media only screen and (min-width: 800px){
+    .banner-title {
+        line-height: 30px;
+    }
     .banner-title p {
-        font-size: 70px;
+        font-size: 55px;
+    }
+}
+@media only screen and (min-width: 880px) {
+    .banner-title {
+        line-height: 38px;
+    }
+    .banner-title p {
+        font-size: 60px;
     }
     .block-author {
         bottom: 10px;
     }
     .home #author {
-        height: 674px;
-        width: 60%;
+        width: 50%;
     }
     .home #author img {
         height: 100%;
@@ -1017,23 +1017,40 @@ blockquote cite:before {
         margin-left: 90px;
     }
 }
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .home #author {
-        height: 674px;
-        width: 60%;
+        width: 50%;
+    }
+    .banner-title {
+        line-height: 38px;
+    }
+    .banner-title p {
+        font-size: 65px;
     }
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .banner-title p {
+        font-size: 70px;
+    }
+    .banner-title {
+        line-height: 40px;
+    }
     .home #author {
-        height: 674px;
-        width: 30%;
-        left: 10%;
-    } 
+        width: 50%;
+    }
 }
-
+@media only screen and (max-width: 450px) {
+    .home .content {
+        margin: 0% 0% 0% 10% !important;
+        width: 90% !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .home .content {
+        margin: 0% 0% 0% 15% !important;
+        width: 90% !important;
+    }
+}
 @media only screen and (max-width: 767px) {
     .mi-libro-click-aqui .entry-content {
         margin-top: 25px;
@@ -1049,11 +1066,6 @@ blockquote cite:before {
         text-align: left;
         position: absolute;
         top: 11px;
-    }
-    .home .banner-list {
-        width: 100%;
-        padding-right: 2px;
-        text-align: left;
     }
     .name-autor {
         font-size: 1.25rem;
@@ -1084,9 +1096,10 @@ blockquote cite:before {
         display: none;
     }
     .home .content {
-        margin: 0;
+        margin: 0% 0% 0% 25%;
         position: absolute;
-        top: 700px;
+        top: 767px;
+        width: 60%;
         padding-left: 0;
         text-align: center;
     }
@@ -1126,15 +1139,35 @@ blockquote cite:before {
         background-image: url(../img/home-small.webp);
     }
     .home #author {
-        height: 673px;
+        height: 714px;
         position: absolute;
-        overflow: hidden;
-        text-align: center;
         width: 100%;
-        text-align: center;
         display: flex;
         justify-content: center;
-        top: 95px;
+    }
+    .banner-title {
+        line-height: 28px;
+        margin-top: 20px;
+        text-align: left;
+        margin-left: 21px;
+    }
+    .home .banner-subtitle {
+        width: 75%;
+        text-align: left;
+        margin: -10px 0px 0px 21px;
+    }
+    .home .banner-list {
+        width: 75%;
+        padding-right: 2px;
+        text-align: left;
+        font-size: 17px;
+        margin-left: -25%;
+        margin-bottom: 0px;
+    }
+    .home .banner-pie{
+        width: 75%;
+        text-align: left;
+        margin-left: 21px;
     }
     .home #author img {
         position: absolute;
@@ -1150,16 +1183,7 @@ blockquote cite:before {
         font-weight: 700;
         font-size: 3rem;
     }
-    .home .banner-subtitle {
-        color: #fff !important;
-        font-family: "PT Sans";
-        font-weight: 400;
-        font-size: 1.5rem;
-        font-style: italic;
-        background-color: rgb(0, 0, 0, 0);
-        padding: 0;
-        width: 100%;
-    }
+
     #header .navbar .navbar-toggler[aria-expanded="true"] {
         background-color: #020101 !important;
         width: 100%;
@@ -1221,7 +1245,7 @@ blockquote cite:before {
     .quiensoy .content-more {
         margin-bottom: 122px;
     }
-    .margen-textos{
+    .margen-textos {
         margin-left: 1.5em !important;
         margin-right: 1.5em !important;
     }
@@ -1357,7 +1381,7 @@ blockquote cite:before {
         margin-bottom: -32px;
     }
     .quien-soy-detalles .sandra-familia {
-        margin-top: 0px !important;
+        margin-top: 0 !important;
     }
     .quien-soy-detalles .sandra-maratones_1 {
         margin-top: 15px !important;
@@ -1429,7 +1453,7 @@ blockquote cite:before {
         width: 200px;
     }
     #wrapper {
-        height: 768px;
+        min-height: 768px !important;
     }
     .wpcf7 .ajax-loader {
         margin: 0;
