@@ -1059,19 +1059,19 @@ blockquote cite:before {
     #header-top-left {
         display: inline-block;
         width: 50%;
-        margin-left: -15px;
     }
     #header-top-right {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         text-align: left;
+        font-weight: 400;
         position: absolute;
         top: 11px;
     }
     .name-autor {
-        font-size: 1.25rem;
+        font-size: 1.95rem;
     }
     .last-autor {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
     }
     .profesion {
         width: 75px;
@@ -1129,11 +1129,6 @@ blockquote cite:before {
     }
     .navbar-toggler[aria-expanded="true"] #text-close {
         display: inline-block;
-    }
-    #header-top-right {
-        font-size: 1.25rem;
-        text-align: left;
-        position: absolute;
     }
     .home #wrapper {
         background-image: url(../img/home-small.webp);
