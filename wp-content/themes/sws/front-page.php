@@ -1,13 +1,11 @@
 <?php
 /**
-* Plantilla para todas las páginas
+* Plantilla principal
 */
-
 // Exit if accessed directly
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
-
-get_header();?>
-
+get_header();
+?>
 <div id="author">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sandra-complete.webp" loading="lazy">
 </div> 

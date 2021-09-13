@@ -1,0 +1,322 @@
+.sidebar {
+    height: 100%;
+    max-width: 400px;
+    position: fixed;
+    z-index: 9;
+    right: 0;
+    top: 0;
+    transition: all 1s ease;
+    overflow: hidden;
+    transform: translate(100%, 0);
+    opacity: 0;
+    width: 100%;
+    background-color: #fff;
+}
+.mi-libro-detalles #wrapper {
+    background-image: url(../img/milibro.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.mi-libro-detalles .entry-content {
+    background-color: #fff;
+    color: #000;
+    padding: 0 25px 20px 25px;
+}
+.sidebar.move {
+    right: 0;
+    transform: translate(0, 0);
+    top: 0;
+    z-index: 999;
+    background-color: #ffff;
+    opacity: 1;
+    overflow: scroll;
+}
+#close-sidebar {
+    z-index: 9999999;
+    position: absolute;
+    top: 20px;
+    right: 22px;
+    color: #fded00;
+}
+.mi-libro-click-aqui .block-btm .fa {
+    color: #fff !important;
+    position: relative;
+    margin-top: -5px;
+    margin-right: -2px;
+    float: right;
+    bottom: 0;
+    z-index: 99999;
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+.mi-libro #wrapper,
+.mi-libro-click-aqui #wrapper {
+    background-image: url(../img/milibro.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ccc;
+}
+.mi-libro-click-aqui video {
+    width: auto;
+    height: 220px;
+}
+.mi-libro-click-aqui img {
+    width: auto;
+    height: 220px;
+}
+.mi-libro-click-aqui .wp-block-column {
+    margin: 0;
+    margin-left: 25px;
+}
+.mi-libro-click-aqui .column-title {
+    height: 30px;
+}
+.mi-libro-click-aqui p {
+    margin-bottom: 0;
+}
+.mi-libro-click-aqui .entry-content {
+    margin-top: 50px;
+}
+.mi-libro .content {
+    margin: 0;
+    margin-left: 90px;
+}
+.mi-libro .text-up {
+    font-size: 30px !important;
+    font-style: italic;
+    color: #fff;
+    line-height: 36px !important;
+}
+.mi-libro .content-subtitle {
+    width: 56%;
+    margin-top: 25px;
+    line-height: 44px;
+}
+.mi-libro .content-subtitle p {
+    line-height: 5px;
+}
+.mi-libro p.subtitle,
+.mi-libro span.subtitle {
+    color: #fff;
+    font-size: 25px;
+}
+.mi-libro .content-more {
+    width: 50%;
+}
+.mi-libro .banner-title p {
+    font-size: 60px;
+}
+.mi-libro .add-mt {
+    margin-top: 6px;
+}
+.mi-libro .content-more .read-more {
+    margin-top: 0;
+}
+.mi-libro .libro {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+}
+.mi-libro .clickaqui {
+    position: absolute;
+    top: 240px;
+    right: 450px;
+}
+.mi-libro .btn {
+    border: 1px solid #fded00;
+    border-radius: 33px;
+    background-color: transparent;
+    color: #000;
+    padding: 4px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.mi-libro .success {
+    border-color: #fded00;
+    color: #e2e2e2;
+    position: absolute;
+    right: 220px;
+    top: 593px;
+}
+.mi-libro .success:hover {
+    background-color: #fded00;
+    color: #020101;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#text-close {
+    display: none;
+    font-family: "PT Sans";
+    font-weight: 700;
+    color: #fded00;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.arrow-close {
+    color: #fff;
+    padding-left: 10px;
+}
+.mi-libro #up-content{
+    display: none;
+}
+.mi-libro .link-mobile{
+    display: none;
+}
+.blink_me {
+    opacity: 0;
+    animation: blinking 1s linear infinite;
+}
+@keyframes blinking {
+    49.9%,
+    from {
+        opacity: 0;
+    }
+    50%,
+    to {
+        opacity: 1;
+    }
+}
+/* .mi-libro-detalles .main-content {
+    margin-left: -15px;
+    margin-right: -15px;
+} */
+.mi-libro-detalles .block-social {
+    display: none;
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 800px){
+}
+@media only screen and (min-width: 880px) {
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (max-width: 450px) {
+}
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 767px) {
+    .mi-libro .content .libro{
+        display: none;
+    }
+    .mi-libro .link-desktop{
+        display: none;
+    }
+    .mi-libro .link-mobile{
+        height: 67px;
+        width: 125px;
+        top: 137px;
+        left: 13%;
+        position: absolute;
+        display: block;
+    }
+    .mi-libro .content {
+        position: absolute;
+        top: 550px;
+    }
+    .mi-libro .banner-title {
+        width: 60%;
+        margin-top: 3%;
+        line-height: 1.95rem !important;
+    }
+    .mi-libro .content-subtitle {
+        position: relative;
+        width: 80%;
+        margin-top: 0px;
+        line-height: 1rem;
+    }
+    .mi-libro .block-social {
+        display: none;
+    }
+    .mi-libro .success {
+        top: 230px;
+        left: 35px;
+    }
+    .mi-libro .libro {
+        top: 8%;
+        left: 20%;
+        position: absolute;
+    }
+    .mi-libro .text-up {
+        font-size: 2rem !important;
+        color: #fff;
+    }
+    .mi-libro .content-subtitle p {
+        line-height: 2.75rem !important;
+    }
+    .mi-libro .clickaqui {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .mi-libro .content-more {
+        position: relative;
+        width: 100%;
+        right: 40px;
+        padding-bottom: 60px;
+    }
+    .mi-libro p.subtitle,
+    .mi-libro span.subtitle {
+        color: #fff;
+        font-size: 25px;
+        line-height: 8px !important;
+    }
+    .mi-libro-detalles .entry-content {
+        margin: 0;
+        width: 100%;
+    }
+    .mi-libro-detalles .container {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0;
+    }
+    .mi-libro-detalles .entry-content ul {
+        border-left: 1px solid #b88909;
+    }
+    .mi-libro-click-aqui .entry-content {
+        margin-top: 25px;
+        top: 0;
+    }
+    .mi-libro #wrapper {
+        background-image: url(../img/milibro-small.png);
+        width: 100%;
+        min-height: 540px;
+    }
+    .mi-libro #up-content{
+        position: absolute;
+        top: 96px;
+        min-height: 435px;
+        width: 100%;
+        display: block;
+    }
+    .mi-libro .banner-title p {
+        font-size: 2.9rem;
+    }
+    .mi-libro .btn {
+        padding: 0.25rem 1rem;
+        left: 14%;
+    }
+    .sidebar {
+        top: 180px;
+        z-index: 9;
+        height: auto;
+        width: 100%;
+        transition: margin 0.25s ease-out;
+        right: -400px;
+        top: 175px;
+        transition: all 1s ease;
+        transform: translate(0, 0);
+        background-color: #161f2d;
+        overflow-x: hidden;
+        top: 0;
+    }
+    .sidebar.move {
+        right: 0;
+        transform: translate(0, 0);
+    }
+}

@@ -96,8 +96,12 @@ get_header();
         </div>
     </div>
 </div>
-
-
+<div id="up-content">
+    <img class="libro" src="<?php echo get_template_directory_uri(); ?>/assets/img/libro.png">
+</div>
+<a class="link-mobile" href="/mi-libro-click-aqui">
+    <img class="clickaqui blink_me" border="0" alt="clickaqui" src="<?php echo get_template_directory_uri(); ?>/assets/img/clickaqui.png">
+</a>
 <div class="content">
     <div class="banner-title">
         <p>¿POR QUÉ SI</p>
@@ -105,17 +109,18 @@ get_header();
         <p>DEBES LEER</p>
         <p>ESTE LIBRO?</p>
     </div>
-  <div class="content-subtitle">
-        <p class="text-up">En este libro encontrarás todo lo que necesitas
-        saber sobre alimentación, hidratación y suplementación<span class="subtitle"> para tus entrenamientos y carreras, desde mi perspectiva como nutricionista deportiva y maratonista.</span></p>
-  </div>      
-  <img class="libro" src="<?php echo get_template_directory_uri(); ?>/assets/img/libro.png">
-    <a href="/mi-libro-click-aqui">
+    <div class="content-subtitle">
+        <p class="text-up">En este libro encontrarás todo lo que necesitas saber sobre alimentación, hidratación y suplementación 
+            <span class="subtitle">para tus entrenamientos y carreras, desde mi perspectiva como nutricionista deportiva y maratonista.</span>
+        </p>
+    </div>      
+    <img class="libro" src="<?php echo get_template_directory_uri(); ?>/assets/img/libro.png">
+    <a class="link-desktop" href="/mi-libro-click-aqui">
         <img class="clickaqui blink_me" border="0" alt="clickaqui" src="<?php echo get_template_directory_uri(); ?>/assets/img/clickaqui.png">
-  </a>
-  <div class="content-more">
+    </a>
+    <div class="content-more">
         <a class="read-more" href="/mi-libro-detalles/">Leer más &gt;</a>
-  </div>  
+    </div>
 </div>
 <button id="btnBuy" class="btn success">COMPRAR</button>           
 <?php          

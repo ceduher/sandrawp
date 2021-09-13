@@ -1606,13 +1606,11 @@
 }
 
 #cf7md-form .mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input {
-    border-bottom-color: rgba(0,0,0,0.42)
+    border-bottom-color: white !important;
 }
-
 #cf7md-form .mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input:hover {
     border-bottom-color: rgba(0,0,0,0.87)
 }
-
 #cf7md-form .mdc-text-field .mdc-line-ripple {
     background-color: #3f51b5;
     background-color: var(--mdc-theme-primary, #3f51b5)

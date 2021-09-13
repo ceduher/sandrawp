@@ -1,0 +1,142 @@
+.home #wrapper {
+    background-image: url(../img/fondo.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home #author {
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.home #author img {
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    height: 720px;
+    right: 0;
+}
+@media only screen and (min-width: 768px) {
+    .home #author {
+        height: 714px;
+        width: 50%;
+        top: 145px;
+    }
+    .home #author img {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        overflow: hidden;
+        bottom: 0;
+        right: unset;
+    }
+}
+@media only screen and (min-width: 800px){
+}
+@media only screen and (min-width: 880px) {
+    .home #author {
+        width: 50%;
+    }
+    .home #author img {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        overflow: hidden;
+        bottom: 0;
+        right: unset;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .home #author {
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .home #author {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .home .content {
+        margin: 0% 0% 0% 10% !important;
+        width: 90% !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .home .content {
+        margin: 0% 0% 0% 15% !important;
+        width: 90% !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .home .content {
+        margin: 0% 0% 0% 25%;
+        position: absolute;
+        top: 767px;
+        width: 60%;
+        padding-left: 0;
+        text-align: center;
+    }
+    .home #wrapper {
+        background-image: url(../img/home-small.webp);
+    }
+    .home #author {
+        height: 714px;
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .home .banner-title {
+        line-height: 28px;
+        margin-top: 20px;
+        text-align: left;
+        margin-left: 21px;
+    }
+    .home .banner-subtitle {
+        width: 75%;
+        text-align: left;
+        margin: -10px 0px 0px 21px;
+    }
+    .home .banner-list {
+        width: 75%;
+        padding-right: 2px;
+        text-align: left;
+        font-size: 17px;
+        margin-left: -25%;
+        margin-bottom: 0px;
+    }
+    .home .banner-pie{
+        width: 75%;
+        text-align: left;
+        margin-left: 21px;
+    }
+    .home #author img {
+        position: absolute;
+        overflow: hidden;
+        height: auto;
+        bottom: 0;
+        height: 100%;
+        right: unset;
+    }
+    .home .banner-title p {
+        color: #fded00 !important;
+        font-family: "PT Sans";
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    .home #wrapper {
+        min-height: 768px !important;
+    }
+    .block-social {
+        position: absolute;
+        z-index: 110;
+        margin-right: 4px;
+        float: right;
+        top: 1180px;
+        height: 40px;
+        display: block;
+    }
+}

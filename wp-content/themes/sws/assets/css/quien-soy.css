@@ -1,0 +1,234 @@
+.quien-soy-detalles .entry-content {
+    background-color: #fff;
+    padding: 30px 50px 30px 50px;
+    margin: 0;
+}
+.quiensoy #author {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.quiensoy #author img {
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    height: 720px;
+}
+.quiensoy #wrapper {
+    background-image: url(../img/quiensoy.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: initial;
+    background-position: center top;
+}
+.quiensoy .content {
+    margin: 0;
+    margin-left: 90px;
+}
+.quiensoy .content-subtitle {
+    width: 40%;
+}
+.quiensoy .banner-title {
+    line-height: 60px;
+    margin-top: 50px;
+}
+.quiensoy .text-up {
+    font-size: 29px !important;
+    font-style: italic;
+    color: #fff;
+    line-height: 40px;
+}
+.quiensoy span.subtitle {
+    color: #fff;
+    font-size: 21px;
+}
+.read-more {
+    color: #fded00;
+    float: right;
+    font-family: "PT Sans Narrow";
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none !important;
+    margin-top: 20px;
+}
+.quiensoy .content-more {
+    width: 40%;
+}
+.quiensoy #author {
+    display: none;
+}
+.wrapper-qsd {
+    min-height: auto !important;
+}
+.quien-soy-detalles .main-content {
+    color: #010e1e;
+}
+.quien-soy-detalles .sandra-familia {
+    margin-top: -20px !important;
+}
+.quien-soy-detalles .sandra-maratones_1 {
+    margin-top: 15px !important;
+}
+.quien-soy-detalles .sandra-maratones_4 {
+    margin-top: 34px !important;
+}
+.link-publicacion {
+    position: relative;
+    top: 165px;
+}
+.quien-soy-detalles .block-social {
+    display: none;
+}
+@media only screen and (min-width: 768px) {
+    .quiensoy .content {
+        margin-left: 40px;
+    }
+    .quiensoy .banner-title {
+        line-height: 60px;
+        margin-top: 30px;
+    }
+}
+@media only screen and (min-width: 800px){
+
+}
+@media only screen and (min-width: 880px) {
+    .quiensoy .content {
+        margin-left: 90px;
+    }
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (max-width: 450px) {
+}
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 767px) {
+    .quiensoy #wrapper {
+        background-image: url(../img/quiensoy-movil.jpg);
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: initial;
+        background-position: left top;
+    }
+    .quiensoy .content {
+        margin: 0;
+        margin-top: 700px;
+        width: 100%;
+        padding-right: 20px;
+        height: 400px;
+    }
+    .quiensoy .content-more {
+        width: 100%;
+    }
+    .quiensoy .banner-title > span.line {
+        display: inline-block;
+    }
+    .quiensoy .text-up {
+        font-size: 1.4rem !important;
+    }
+    .quiensoy span.subtitle {
+        font-size: 1.05rem;
+        display: inline-block;
+        line-height: 34px;
+    }
+    .quiensoy span.line {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .quiensoy .content-subtitle {
+        width: 100%;
+    }
+    .quiensoy #author {
+        height: 720px;
+        overflow: hidden;
+        top: 0;
+        display: inline-block;
+        bottom: 0;
+    }
+    .quiensoy #author img {
+        height: auto;
+        position: relative;
+        right: 0;
+        bottom: -280px;
+        width: 100%;
+    }
+    .quiensoy .content-more {
+        margin-bottom: 122px;
+    }
+    .margen-textos {
+        margin-left: 1.5em !important;
+        margin-right: 1.5em !important;
+    }
+    .quien-soy-detalles .entry-content {
+        margin: 110px 0 0 0;
+    }
+    .quien-soy-detalles .wp-block-column:not(:only-child) {
+        flex-basis: calc(100% - 1em) !important;
+        flex-grow: 0;
+    }
+    body.quien-soy-detalles {
+        font-family: "PT Sans";
+        font-size: 18px;
+    }
+    .quien-soy-detalles .link-publicacion {
+        position: relative;
+        top: 66px;
+    }
+    .quiensoy .banner-title {
+        font-size: 0.65rem;
+        width: 100%;
+        line-height: 39px;
+    }
+    .quiensoy .banner-title p {
+        color: #fded00 !important;
+        font-family: "PT Sans";
+        font-weight: 700;
+        font-size: 2.6rem;
+    }
+    .quiensoy .banner-title > span {
+        color: #fded00 !important;
+        font-family: "PT Sans";
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+    .quien-soy-detalles .container {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .quien-soy-detalles .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .quien-soy-detalles .entry-content {
+        background-color: #fff;
+        padding: 0;
+        margin: 0;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 20px;
+        margin-bottom: -32px;
+    }
+    .quien-soy-detalles .sandra-familia {
+        margin-top: 0 !important;
+    }
+    .quien-soy-detalles .sandra-maratones_1 {
+        margin-top: 15px !important;
+    }
+    .quien-soy-detalles .sandra-maratones_4 {
+        margin-top: 34px !important;
+    }
+    .quien-soy-detalles #wrapper {
+        background-image: url(../img/contacto-small.jpg);
+        height: 90px;
+    }
+}

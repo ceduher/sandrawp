@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html <?php language_attributes();?>>
 <head>
@@ -9,8 +8,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php wp_head(); 
-    /* Paginas Quienes Somos */
     $pagesQS = array('quiensoy', 'quien-soy-detalles');
+    $pagesML = array('mi-libro', 'mi-libro-detalles', 'mi-libro-click-aqui');
 ?>
 </head>
 <body <?php body_class();?>>
@@ -57,7 +56,7 @@
                         <a title="¿Quién soy?" href="/quiensoy" class="nav-link <?php if(isset($post->post_name) && in_array($post->post_name, $pagesQS)){ echo 'active'; } ?>">¿Quién soy?</a>
                     </li>
                     <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-321 nav-item">
-                        <a title="Mi libro" href="/mi-libro" class="nav-link <?php if(isset($post->post_name) && $post->post_name == 'mi-libro'){ echo 'active'; } ?>">Mi libro</a>
+                        <a title="Mi libro" href="/mi-libro" class="nav-link <?php if(isset($post->post_name) &&  in_array($post->post_name, $pagesML)){ echo 'active'; } ?>">Mi libro</a>
                     </li>                  
                     <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-320 nav-item">
                         <a title="Contáctame" href="/contactame" class="nav-link <?php if(isset($post->post_name) && $post->post_name == 'contactame'){ echo 'active'; } ?>">Contáctame</a>

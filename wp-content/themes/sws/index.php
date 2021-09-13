@@ -1,7 +1,5 @@
 <?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
-
 get_header();?>
-
 <?php if ( have_posts() ) : while ( have_posts() ) :   the_post(); ?>
 <h2>
   <a href="<?php the_permalink() ?>">
@@ -12,5 +10,4 @@ get_header();?>
 <?php endwhile; else: ?>
 <p>There no posts to show</p>
 <?php endif; ?>
-
 <?php get_footer();?>

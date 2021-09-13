@@ -1,0 +1,494 @@
+/* Formulario */
+#cf7md-form .cf7md-accept-label,
+#cf7md-form .cf7md-checkbox-label,
+#cf7md-form .cf7md-radio-label,
+#cf7md-form .cf7md-switch-label,
+#cf7md-form .mdc-select:not(.mdc-select--disabled) .mdc-floating-label,
+#cf7md-form .mdc-text-field--outlined.mdc-text-field--disabled .mdc-text-field__input,
+#cf7md-form .mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label,
+.wpcf7-list-item label {
+    color: rgb(255 255 255 / 87%);
+}
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: #ffb900;
+    color: #fff;
+    border-radius: 5px;
+}
+.wpcf7-text::focus {
+    color: #fff;
+}
+#cf7md-form .wpcf7-not-valid-tip {
+    color: #fded00;
+    margin-top: 4px;
+    margin-bottom: 0;
+    display: block;
+    float: none;
+}
+#cf7md-form .mdc-text-field:not(.mdc-text-field--disabled) {
+    background-color: transparent !important;
+    border: 0;
+    outline: 0;
+}
+#cf7md-form .mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled):not(.mdc-text-field--focused) .mdc-text-field__icon:hover ~ .mdc-notched-outline .mdc-notched-outline__trailing {
+    border: 0 !important;
+}
+#cf7md-form .mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__leading,
+#cf7md-form .mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__notch,
+#cf7md-form .mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-notched-outline__trailing {
+    border: 0 !important;
+}
+#cf7md-form .mdc-text-field--textarea .mdc-notched-outline .mdc-notched-outline__trailing {
+    border: 0;
+    font-size: 1.125rem;
+}
+#cf7md-form .mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-notched-outline__leading,
+#cf7md-form .mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-notched-outline__notch,
+#cf7md-form .mdc-text-field--textarea.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-notched-outline__trailing {
+    border: 0;
+    font-size: 1.125rem;
+}
+#cf7md-form .mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-line-ripple {
+    background-color: #fff;
+    background-color: var(--mdc-theme-error, #fff);
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    color: #fff;
+}
+#cf7md-form .mdc-text-field--textarea .mdc-notched-outline .mdc-notched-outline__leading {
+    border: 0;
+}
+#cf7md-form .mdc-text-field--textarea:not(.mdc-text-field--disabled) .mdc-notched-outline__leading,
+#cf7md-form .mdc-text-field--textarea:not(.mdc-text-field--disabled) .mdc-notched-outline__notch,
+#cf7md-form .mdc-text-field--textarea:not(.mdc-text-field--disabled) .mdc-notched-outline__trailing {
+    border: 0;
+}
+.wpcf7-submit:hover {
+    background-color: #fded00 !important;
+    color: #000;
+}
+#cf7md-form .cf7md-accept-label,
+#cf7md-form .cf7md-checkbox-label,
+#cf7md-form .cf7md-radio-label,
+#cf7md-form .cf7md-switch-label,
+#cf7md-form .mdc-select:not(.mdc-select--disabled) .mdc-floating-label,
+#cf7md-form .mdc-text-field--outlined.mdc-text-field--disabled .mdc-text-field__input,
+#cf7md-form .mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label,
+#cf7md-form .wpcf7-list-item label,
+#cf7md-form input,
+#cf7md-form select,
+#cf7md-form textarea {
+    color: rgb(255 255 255 / 87%);
+}
+textarea {
+    border-style: none;
+    border-color: Transparent;
+    overflow: auto;
+}
+:focus {
+    outline: 0;
+}
+#cf7md-form .mdc-select:not(.mdc-select--disabled) .mdc-select__native-control.wpcf7-not-valid,
+#cf7md-form .mdc-select:not(.mdc-select--disabled) .mdc-select__selected-text.wpcf7-not-valid,
+#cf7md-form .mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input.wpcf7-not-valid {
+    border-bottom-color: #e9eae9;
+}
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: #46b450;
+    color: #fff;
+    border-radius: 5px;
+}
+#cf7md-form .cf7md-accept-label,
+#cf7md-form .cf7md-checkbox-label,
+#cf7md-form .cf7md-radio-label,
+#cf7md-form .cf7md-switch-label,
+#cf7md-form .mdc-select:not(.mdc-select--disabled) .mdc-floating-label,
+#cf7md-form .mdc-text-field--outlined.mdc-text-field--disabled .mdc-text-field__input,
+#cf7md-form .mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label,
+#cf7md-form .wpcf7-list-item label,
+#cf7md-form input,
+#cf7md-form select,
+#cf7md-form textarea {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+#cf7md-form .cf7md-card-subtitle,
+#cf7md-form .cf7md-card-title,
+#cf7md-form .cf7md-item,
+#cf7md-form .mdc-button,
+#cf7md-form .mdc-floating-label,
+#cf7md-form .mdc-form-field,
+#cf7md-form .mdc-select,
+#cf7md-form .mdc-select__native-control,
+#cf7md-form .mdc-text-field-helper-text,
+#cf7md-form .mdc-text-field__input,
+#cf7md-form .wpcf7-not-valid-tip,
+#cf7md-form input,
+#cf7md-form label,
+#cf7md-form p,
+#cf7md-form textarea,
+#cf7md-form.cf7md-form + .wpcf7-response-output {
+    font-family: "PT Sans Narrow";
+    font-size: 1.125rem;
+}
+.wpcf7 label {
+    color: #fff !important;
+    font-family: "PT Sans";
+    font-weight: 400;
+}
+/* Fin - Formulario */
+#contactame-back {
+    display: none;
+}
+.contactame #wrapper {
+    background-image: url(../img/contactame.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 720px;
+}
+.contactame .contact-title {
+    color: #fded00;
+    font-family: "PT Sans";
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+.contactame .content {
+    margin: 0;
+    padding-left: 5rem;
+}
+.contactame .contact-adress {
+    color: #fff;
+    font-family: "PT Sans";
+    font-weight: 400;
+    font-size: 18px;
+}
+.contactame .contact-whatpsapp {
+    color: #fff;
+    font-family: "PT Sans";
+    font-weight: 400;
+    font-size: 16px;
+}
+.contactame .contact-phones {
+    color: #fff;
+    font-family: "PT Sans";
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.desktop-form{
+    margin-top: 5%;
+}
+.shadow-bg{
+    background-color: rgb(0, 0, 0, 0.125);
+}
+.contactame .contact-box-section-title{
+    width: 100%;
+    height: 120px;
+    border: 0;
+    margin-top: 0;
+    display: block;
+}
+.contactame .contact-box {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+.contactame .contact-info {
+    margin-top: 60px;
+}
+.contactame .contact-box .iconos {
+    flex: 0 0 20%;
+    max-width: 20%;
+    display: inline;
+    text-align: center;
+}
+.contactame .contact-box .info {
+    flex: 0 0 80%;
+    max-width: 80%;
+    display: inline;
+    border-left: 2px solid #fff;
+    padding-left: 20px;
+}
+.contactame .contact-box .info-tlf {
+    flex: 0 0 80%;
+    max-width: 80%;
+    display: inline;
+    border-left: 2px solid #fff;
+    padding-left: 20px;
+    height: 45px;
+}
+.contactame .contact-box .info-email {
+    flex: 0 0 80%;
+    max-width: 80%;
+    display: inline;
+    border-left: 2px solid #fff;
+    padding-left: 20px;
+    height: 40px;
+}
+.contactame .contact-box .title {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: inline;
+    text-align: center;
+}
+.contactame .fa {
+    color: #fded00;
+    font-size: 35px;
+}
+.contactame .fa-map-marker {
+    position: relative;
+    display: block;
+    top: 50px;
+}
+.contactame .fa-whatsapp {
+    position: relative;
+    display: block;
+    top: 5px !important;
+}
+.contactame .fa-phone {
+    position: relative;
+    display: block;
+    top: 0px !important;
+}
+.contactame .fa-envelope {
+    top: 0px !important;
+}
+.section-map {
+    min-height: 115px !important;
+    margin-bottom: 20px;
+}
+.section-ws {
+    height: 50px !important;
+    margin-bottom: 20px;
+}
+.section-tlf{
+    height: 60px !important;
+}
+.contact-email{
+    line-height: 40px;
+    margin-bottom: 0px;
+}
+.contactame .contact-whatpsapp {
+    line-height: 45px;
+    margin-bottom: 0px;
+}
+.section-email{
+    height: 60px !important;
+}
+.border-yellow{
+    border: 2px solid #fded00;
+}
+.md-form {
+    position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 3.75rem !important;
+}
+.btn-primary {
+    background-color: #fded00 !important;
+    color: #000 !important;
+}
+.wpcf7-submit {
+    margin-top: 50px !important;
+}
+.md-form label {
+    color: #fff !important;
+    width: 100%;
+}
+.contact-subtitle {
+    font-family: "PT Sans";
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin: 0;
+}
+.color-yellow {
+    color: #fded00;
+}
+.contactame .btn {
+    border: 1px solid #fded00;
+    border-radius: 33px;
+    background-color: transparent;
+    color: #000;
+    padding: 4px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contactame .wpcf7-submit {
+    border-color: #fded00;
+    background: 0 0;
+    border-radius: 23px;
+    padding: 2px 50px;
+    font-family: "PT Sans";
+    font-size: 1.25rem;
+    margin-top: 0 !important;
+}
+.contactame .md-form .form-control {
+    margin: 0;
+    padding: 0;
+}
+.contactame .md-form {
+    margin-bottom: 40px !important;
+}
+.contactame .success {
+    right: unset;
+    top: 450px;
+}
+.contactame .mat-input-element {
+    font: inherit;
+    background: 0 0;
+    color: currentColor;
+    border: none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    vertical-align: bottom;
+    text-align: inherit;
+    box-sizing: content-box;
+}
+.contactame textarea {
+    padding: 2px 0;
+    margin: -2px 0;
+    resize: vertical;
+    overflow: auto;
+    border-bottom: 1px solid #ced4da !important;
+}
+.contactame .content-more {
+    display: none;
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 800px){
+}
+@media only screen and (min-width: 880px) {
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (max-width: 450px) {
+}
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 767px) {
+    .contactame #wrapper {
+        background-image: url(../img/contacto-small.jpg);
+        min-height: 484px !important;
+        height: auto;
+    }
+    .contactame .header-top{
+        background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+    .contactame .content {
+        margin: 0;
+        padding-left: 0;
+        height: 390px;
+    }
+    .desktop-form{
+        margin-top: 0%;
+    }
+    .border-yellow{
+        border: none;
+    }
+    .contactame .contact-box {
+        padding: 5px 10px 40px 5px;
+    }
+    .contactame .contact-box-section-title{
+        width: 110%;
+        height: 50px;
+        border: 0;
+        margin-top: 0;
+        margin-left: -15px;
+        display: block;
+    }
+    .contactame .contact-box .titulo {
+        width: 100%;
+    }
+    .contactame .contact-box{
+        background-color: rgb(0, 0, 0, 0);    
+    }
+    .shadow-bg{
+        background-color: rgb(0, 0, 0, 0.65);
+    }
+    .section-map{
+        height: 160px !important;
+        margin-bottom: 0px;
+    }
+    .section-ws{
+        height: 60px !important;
+        margin-bottom: 0px;
+    }
+    .contactame form {
+        display: none;
+        padding: 0;
+        margin-bottom: 0 !important;
+        margin-top: 35px;
+        color: #fff;
+        text-align: center;
+    }
+    .contactame .contact-box {
+        border: 0;
+        height: 342px;
+        margin-top: 0;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 10px;
+    }
+    .contactame .contact-title {
+        display: none;
+    }
+    .contactame .contact-info {
+        padding: 0 30px 0 30px;
+    }
+    .contactame .content-more {
+        display: block !important;
+        right: 45px;
+        position: relative;
+        top: 90px;
+        margin-bottom: 25px;
+    }
+    .contactame .contact-info {
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        margin-top: 0;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .contactame .success {
+        top: 85px;
+        position: relative;
+        left: 25%;
+    }
+    .contactame label[for="link-more"] {
+        color: #fded00;
+    }
+    .contactame .content-back {
+        color: #fded00;
+        font-family: "PT Sans Narrow";
+        z-index: 9999999;
+    }
+    #contactame-back {
+        position: absolute;
+        left: 43px;
+        top: 0;
+        display: none;
+        z-index: 999999;
+        width: 100%;
+    }
+    .wpcf7 .ajax-loader {
+        margin: 0;
+        position: absolute;
+    }
+    .contactame .backbg {
+        background-color: #161f2d;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+    }
+}
