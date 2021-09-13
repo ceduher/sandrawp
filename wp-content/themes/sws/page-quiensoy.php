@@ -7,12 +7,13 @@ get_header();
 <div id="author">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/autor-quiensoy.png">
 </div> 
-<div class="content">
+<div class="content shadow-bg">
     <div class="banner-title">
-        <p>¿CÓMO ME</p>
-        <span>DEFINO</span>
-        <span class="line">EN POCAS</span>
-        <p>PALABRAS?</p>                                    
+        <p>
+            <span>¿CÓMO ME</span><br/>
+            <span>DEFINO EN POCAS</span><br/>
+            <span>PALABRAS?</span>
+        </p>                                    
   </div>
     <div class="content-subtitle">
       <span class="subtitle"><span class="text-up">Venezolana, mamá, nutricionista <br>deportiva, maratonista</span>

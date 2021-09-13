@@ -1,3 +1,6 @@
+.mi-libro .grecaptcha-badge, 
+.mi-libro-detalles .grecaptcha-badge, 
+.mi-libro-click-aqui .grecaptcha-badge { visibility: hidden; }
 .sidebar {
     height: 100%;
     max-width: 400px;
@@ -199,6 +202,9 @@
 @media only screen and (max-width: 450px) {
 }
 @media only screen and (max-width: 600px) {
+    .mi-libro .content {
+        margin-left: 30px !important;
+    }
 }
 @media only screen and (max-width: 767px) {
     .mi-libro .content .libro{
@@ -220,7 +226,7 @@
         top: 550px;
     }
     .mi-libro .banner-title {
-        width: 60%;
+        width: 90%;
         margin-top: 3%;
         line-height: 1.95rem !important;
     }
@@ -239,7 +245,7 @@
     }
     .mi-libro .libro {
         top: 8%;
-        left: 20%;
+        right: 5%;
         position: absolute;
     }
     .mi-libro .text-up {
@@ -267,7 +273,7 @@
         line-height: 8px !important;
     }
     .mi-libro-detalles .entry-content {
-        margin: 0;
+        margin: 0 !important;
         width: 100%;
     }
     .mi-libro-detalles .container {

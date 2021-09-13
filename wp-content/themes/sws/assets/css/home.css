@@ -1,3 +1,4 @@
+.home .grecaptcha-badge { visibility: hidden; }
 .home #wrapper {
     background-image: url(../img/fondo.jpg);
     background-position: left top;
